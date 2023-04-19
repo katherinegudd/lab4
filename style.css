@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Tenor Sans";
+    font-size: 14px;
+    line-height: 1.4;
+    color: #dfd8cf;
+    background: #849282;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    margin: 0px;
+    border: 1px solid #dfd8cf;
+    gap: 0px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-right: 20px;
+    line-height: 1.2;
+}
+.title {
+}
+
+.days-list {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-right: 20px;
+    gap: 30px;
+    color:#849282;
+}
+
+.day {
+    list-style-image: none;
+    border: 7px solid #dfd8cf;
+    background-color: #dfd8cf; 
+}
+
+footer {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #768375;
+}
+
+.quote {
+    display: table;
+    margin: 0 auto;
+    color: #dfd8cf;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
+}
